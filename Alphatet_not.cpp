@@ -1,18 +1,17 @@
 #include<iostream>
-#include<conio.h>
 using namespace std;
 int main ()
 {
 char xyz;
-cout<<"Enter a Character:";
+//cout<<"Enter a Character:";
  cin>>xyz;
  if(xyz>='a' && xyz<='z' || xyz>='A' && xyz<='Z')
  {
-    cout<<xyz<<" is an alphabet";
+    cout<<"Alphabet";
  }
  else
  {
-     cout<<xyz<<" is not aplhabet";
+     cout<<"No";
  }
  return 0;
 }
